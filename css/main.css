@@ -1,0 +1,75 @@
+/**********
+General
+**********/
+
+
+img {
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+}
+
+
+/************
+Header
+************/
+header{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+/************
+Navigation
+************/
+nav{
+    text-align: center;
+}
+
+nav ul{
+    
+    list-style: none;
+}
+
+nav li{
+    
+    display: inline-block;
+}
+/*************
+Footer
+**************/
+
+footer{
+    
+    text-align: center;
+}
+
+/*************
+Page Portfolio
+**************/
+
+#gallery {
+    list-style: none;
+    
+}
+
+/*************
+Colors
+**************/
+
+header{
+    background-color: #599a68;
+}
+
+h1,h2 {
+    color: #fff;
+}
+nav a{
+color: #fff;
+}
+.selected{
+    color: #32673f;
+}
+
+
