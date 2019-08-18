@@ -3,17 +3,23 @@
   <head>
     <meta charset="utf-8">
     <title> Greg Rice Front End Web Developer</title>
+    <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
     <header>
-        <h1> Greg Rice</h1>
-        <h2> Front End Web Developer</h2>
+        <a href="index.html" id="logo">
+            <h1> Greg Rice</h1>
+            <h2> Data Analyst</h2>
+        </a>
         <nav>
             <ul>
-                <li><a href="index.html"> Portfolio</a>
+              
+               <!--inclue navigation inside header for custom look, different from index/home page--> 
+                <li><a href="index.html">Home</a>
                 </li>
                 <li><a href="about.html"> About</a>
                 </li>
@@ -23,19 +29,22 @@
         </nav>
     </header>
     <div id="wrapper">
-    <section id="primary">
-        <h3>General Information</h3>
-        <p> For general inquires, the best way to reach me is by email</p>
-    </section>
-    <section id="secondary">
-        <ul class="contact info">
-            <li class="phone"><a href="tel:5024171043">(502) 417-1043</a></li>
-            <li class="mail"><a href="mailto:gregrice100@gmail.com">gregrice100@gmail.com</a></li>
-            <li class="twitter"><a href="https:''www.twitter.com" target="_blank">@gregrice</a></li>
-        </ul>
-    </section>
-    <div id="wrapper">
-        <footer>
+        <section id="primary">
+            <h3>General Information</h3>
+            <p> For general inquires, the best way to reach me is by email</p>
+        </section>
+        <section id="secondary">
+            <ul class="contact-info">
+                <li class="phone"><a href="tel:5024171043">(502) 417-1043</a></li>
+                <li class="mail"><a href="mailto:gregrice100@gmail.com">gregrice100@gmail.com</a></li>
+                <li class="twitter"><a href="https:''www.twitter.com" target="_blank">@gregrice</a></li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <a href="https://twitter.com" target="_blank" class="social-icon"><img src="img/twitter-wrap.png"></a>
+        <a href="https://facebook.com" target="_blank" class="social-icon"><img src="img/facebook-wrap.png"></a>
         <p>&copy 2019 Greg Rice</p>
     </footer>
-</body></html>
+</body>
+</html>
