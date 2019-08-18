@@ -1,55 +1,140 @@
 <!DOCTYPE HTML>
-<html>
-  <head>
+<html lng="en">
+
+<head>
     <meta charset="utf-8">
-    <title> Greg Rice Front End Web Developer</title>
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title> Data Analytics in Modern Business </title>
+    <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="css/main.css">
+    
+    <!--link HTML to stylesheets-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/main.js">
+    <script>
+        href = "main.js"
+
+    </script>
 </head>
 
 <body>
+
     <header>
-        <h1> Greg Rice</h1>
-        <h2> Front End Web Developer</h2>
-        <nav>
-            <ul>
-                <li><a href="index.html" class="selected"> Portfolio</a>
-                </li>
-                <li><a href="about.html"> About</a>
-                </li>
-                <li><a href="contact.html"> Contact</a>
-                </li>
-            </ul>
-        </nav>
+
+        <!--Navigation bar moved to top of page, all links active under each page-->
+        <div class="topnav">
+            <li><a href="index.html" class="selected">Home</a></li>
+            <li><a href="about.html"> About</a></li>
+            <li><a href="contact.html"> Contact</a></li>
+        </div>
+
+
+          <a href="index.html" id="logo">
+            
+
+            <!--article for header hyperlink-->
+             <h1> <a href="https://www.forbes.com/sites/forbesinsights/2017/06/12/data-analytics-is-no-longer-a-nice-option-its-the-core-of-the-enterprise/#45cea84077ec">Data Analytics</a> </h1>
+            
+            <h2> In Modern Business </h2>
+
+
+
     </header>
-    <!--start of the gallery-->
+
+
+<!-- images and related article links-->
     <div id="wrapper">
-        <ul id="gallery">
-            <li>
-                <img src="img/numbers-01.jpg" alt="number 1">
-                <p>1.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in.</p>
-            </li>
-            <li>
-                <img src="img/numbers-02.jpg" alt="number 2">
-                <p>2.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in.</p>
-            </li>
-            <li>
-                <img src="img/numbers-06.jpg" alt="number 6">
-                <p>3.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in.</p>
-            </li>
-            <li>
-                <img src="img/numbers-09.jpg" alt="number 9">
-                <p>4.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in.</p>
-            </li>
-            <li>
-                <img src="img/numbers-12.jpg" alt="number 12">
-                <p>5.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in.</p>
-            </li>
-        </ul>
-    </div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="img/dataimage1.jpg">
+                    <img src="img/dataimage1.jpg" alt="data1" class="center" width="600" height="400">
+                    <p><a href="https://www.simplilearn.com/data-science-vs-big-data-vs-data-analytics-article">
+                            <center>Big Data, Data Science and Data Analytics</center>
+                        </a></p>
+                </a>
+          </div>
+
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="img/dataimage2.jpg">
+                    <img src="img/dataimage2.jpg" alt="data2" class="center" width="600" height="400">
+                    <p><a href="https://medium.com/iotforall/data-analytics-vs-machine-learning-90d93dc06291">
+                            <center>Data Analytics and machine learning</center>
+                        </a></p>
+
+                    <!--<div class="desc">Data Analytics and machine learning</div>-->
+            </a>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="img/dataimage3.png">
+                    <img src="img/dataimage3.png" alt="data3" class="center" width="600" height="400">
+
+                    <p><a href="https://www.salesforce.com/hub/analytics/how-to-use-big-data-analytics-tools/">
+                            <center>Data analytics tools</center>
+                        </a></p>
+                    <!--<div class="desc">Data analytics tools</div>-->
+                </a>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="img/dataimage4.jpg">
+                    <img src="img/dataimage4.jpg" alt="data4" class="center" width="600" height="400">
+                    <p><a href="https://imi.ac.in/data-analytics.php">
+                            <center>Data Analytics role in current education</center>
+                        </a></p>
+
+                    <!--<div class="desc">Data Analytics role in current education</div>-->
+                </a>
+        </div>
+
+                    
+           
+        <!--Custom JS newsletter sign up form-->
+            <form action="action_page.php" style="border:1px solid #ccc">
+            <div class="container">
+                <h3>Sign Up For Our Monthly Newsletter!</h3>
+                <p>Please fill in this form to create an account.</p>
+                <hr>
+
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <label for="psw-repeat"><b>Repeat Password</b></label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+                <label>
+                    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                </label>
+
+                <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+                <div class="clearfix">
+                    <button type="button" class="cancelbtn">Cancel</button>
+                    <button type="submit" class="signupbtn">Sign Up</button>
+                </div>
+            </div>
+        </form>
+
+        
     <!--end of gallery-->
-    <!--footer-->
-    <footer>
-        <p>&copy 2019 Greg Rice</p>
-    </footer>
-</body></html>
+       
+        <footer class ="footer">
+            <a href="https://twitter.com" target="_blank" class="social-icon"><img src="img/twitter3.png"></a>
+            <a href="https://facebook.com" target="_blank" class="social-icon"><img src="img/facebook.png"></a>
+            <p>&copy 2019 Greg Rice</p>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
